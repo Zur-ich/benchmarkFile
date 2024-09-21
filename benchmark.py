@@ -17,7 +17,7 @@ def perform_iterations(n):
 	quicksort(arr) # Perform quicksort on the list
 	
 def benchmark():
-	iterations = 1000 # Adjust this value based on your experiment 
+	iterations = 1000000 # Adjust this value based on your experiment 
 	gc.collect() # Clear any lingering garbage
 	start_time = time.time()
 	perform_iterations(iterations)
